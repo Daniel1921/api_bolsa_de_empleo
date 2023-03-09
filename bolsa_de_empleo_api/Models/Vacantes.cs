@@ -3,8 +3,9 @@
     public class Vacantes
     {
         public int Id { get; set; }
-        public int Id_Cedula { get; set; }
-        public string Codigo_vacante { get; set; }
-        public string Fecha_aplicacion { get; set; }
+        public string Cargo { get; set; }
+        public string Descripcion { get; set; }
+        public string Empresa { get; set; }
+        public string Salario { get; set; }
     }
 }

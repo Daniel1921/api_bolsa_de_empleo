@@ -15,5 +15,11 @@ namespace bolsa_de_empleo_api.Data
         }
 
         public DbSet<bolsa_de_empleo_api.Models.Ciudadanos> Ciudadanos { get; set; }
+
+        public DbSet<bolsa_de_empleo_api.Models.Aplicacion_vacantes> Aplicacion_vacantes { get; set; }
+
+        public DbSet<bolsa_de_empleo_api.Models.Tipo_documentos> Tipo_documentos { get; set; }
+
+        public DbSet<bolsa_de_empleo_api.Models.Vacantes> Vacantes { get; set; }
     }
 }
